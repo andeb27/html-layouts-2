@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.top {
+  width: 100%;
+  height: 8vh;
+  background-color: #333333;
+  position: relative;
+  padding: 5px;
+}
+.thing {
+  color: #ffffff;
+  float: left;
+  margin: 0 2%;
+  position: relative;
+  font-size: 11px;
+}
+.main-content  {
+  height: 84vh;
+  width: 50%;
+  float: left;
+  padding: 5% 2%;
+  font-size: 8px;
+}
+.gray {
+  width: 100%;
+  height: 30%;
+  background-color: #dddddd;
+}
+h1 {
+  font-size: 30px;
+}
+#left {
+  padding: 2% 2%;
+}
+.bottom {
+  width: 100%;
+  height: 8vh;
+  background-color: #333333;
+  position: absolute;
+  bottom: 0;
+}
