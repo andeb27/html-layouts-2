@@ -1,0 +1,53 @@
+.top-box {
+  height: 14vh;
+  width: calc(100% / 3 - 13px);
+  margin: 10px 5px;
+  display: inline-block;
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.gray {
+  background-color: gray;
+}
+.text {
+  margin: 10px;
+}
+.mid-box {
+  height: 30vh;
+  float: left;
+  margin: 0 0 10px 0;
+}
+.first {
+  width: 40%;
+  background-color: red;
+}
+.second {
+  width: 60%;
+  background-color: blue;
+}
+.bottom-box {
+  height: 14vh;
+  width: 100%;
+  background-color: blue;
+  clear: left;
+  position: relative;
+}
+.two {
+  width: 30%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  background-color: red;
+}
+.three {
+  width: 70%;
+  height: 100%;
+  background-color: gray;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
